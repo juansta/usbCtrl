@@ -1,0 +1,56 @@
+*.directory
+
+revision
+Makefile
+
+*.Release
+*.Debug
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Output Directories
+build/
+bin
+lib
+beams
+doc/html
+doc/latex
+doc/xml
+doc/rtf
+doc/wiki
+testing/Debug
+testing/Release
+enc_processor/moc
+testing/unit/moc
+testing/unit/obj
+*/moc/*
+*/obj/*
+
+# matlab code
+*.asv
+
+# qt creator project status files
+*.user
+*.pro.user
+*.pro.user.orig
+*.pro*user.*
+*.autosave
+*.pri~
+
+#temp file
+*.tmp
+
+*coverage*
+*junit.*
