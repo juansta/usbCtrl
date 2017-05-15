@@ -54,3 +54,6 @@ testing/unit/obj
 
 *coverage*
 *junit.*
+
+moc_*
+ui_*
